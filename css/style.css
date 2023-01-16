@@ -1,0 +1,181 @@
+/* Estilos inciales para la versión preliminar de Main */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+    justify-content: center;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  .titles {
+    font-family: "Fraunces", serif;
+    font-size: 30px;
+  }
+  
+  .background-image {
+    background-image: url(../images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+  }
+  /*MENU*/
+  header {
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  .menu1 {
+    padding: 20px;
+    list-style: none;
+  }
+  .menu {
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+    font-size: 20x;
+  }
+  
+  .menu:hover {
+    background-color: rgba(225, 229, 106, 0.564);
+    border-radius: 30px;
+    padding: 15px;
+  }
+  
+  /*PRINCIPAL FRONT*/
+  
+  h1 {
+    font-size: 2rem;
+    color: hsl(51, 100%, 49%);
+    align-items: center;
+  }
+  
+  .flecha {
+    padding-top: 40px;
+  }
+  
+  /*GRID*/
+  .grid {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    display: flex;
+    align-content: space-between;
+  }
+  
+  .box-information-white {
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+    align-content: center;
+    padding: 0px 100px;
+  }
+  .box-information-image {
+    width: 50%;
+  }
+  
+  h3 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 20px;
+    padding: 35px 0px;
+    text-align: left;
+  }
+  
+  .borders {
+    text-decoration: none;
+    color: black;
+    font-family: "Fraunces", serif;
+    font-size: 20px;
+  }
+  .borders:hover {
+    text-decoration: 5px underline orangered;
+  }
+  .boxBackground {
+    /* width: 50%;
+    height: auto; */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .Graphic-design {
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    padding-top: 250px;
+  }
+  
+  .Photography {
+    background-image: url(../images/desktop/image-photography.jpg);
+    padding-top: 250px;
+  }
+  
+  .imageBox {
+    font-size: 20px;
+  }
+  
+  /*CARDS*/
+  .card-Container {
+    justify-content: space-between;
+  }
+  
+  .client {
+    color: grey;
+    padding: 200px 0px 0px 0px;
+  }
+  .card {
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .avatar {
+    border-radius: 70px;
+  }
+  
+  /* Estilo del Aside creado por Jorge */
+  
+  #imagesAside {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  #imagesAside img {
+    padding: 0;
+    margin: 0;
+    width: 25%;
+  }
+  
+  /*FOOTER*/
+  
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logoFooter {
+    background-color: hsl(168, 34%, 41%);
+    margin: 50px;
+    padding: 10px;
+  }
+  
+  .footerMenu {
+    color: hsl(168, 34%, 41%);
+  }
+  .contentMenuFooter {
+    flex-direction: row;
+  }
+  .socialMedia {
+    margin: 40px;
+    width: 25%;
+    justify-content: space-around;
+  }
+  
